@@ -33,7 +33,7 @@ namespace EmployeeManager.Models
         public string Title { get; set; }
 
         [Column("BirthDate")]
-        [Display(Name = "Birth Dat")]
+        [Display(Name = "Birth Date")]
         [Required(ErrorMessage = "Birth Date is required")]
         public DateTime BirthDate { get; set; }
 

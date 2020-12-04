@@ -1,6 +1,37 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
+a.linkbutton {
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: lightgray;
+    color: black;
+    padding: 6px;
+    width: 120px;
+    text-align: center;
+    vertical-align: middle;
+    letter-spacing: 1px;
+}
+
+a.linkbuttonwide {
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: lightgray;
+    color: black;
+    padding: 6px;
+    width: 200px;
+    text-align: center;
+    vertical-align: middle;
+    letter-spacing: 1px;
+}
+
+.message {
+    color: red;
+    font-weight: bold;
+}
+
 a.navbar-brand {
   white-space: normal;
   text-align: center;
