@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace EmployeeManager.RazorPages..Models
+namespace EmployeeManager.RazorPages.Models
 {
     public class SignIn
     {

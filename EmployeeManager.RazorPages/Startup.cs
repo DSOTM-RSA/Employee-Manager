@@ -27,6 +27,12 @@ namespace EmployeeManager.RazorPages
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddRazorPages()
+                .AddRazorPagesOptions(options =>
+                {
+                    options.Conventions.AddPageRoute("/EmployeeManager/List", "");
+                });
+
             services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("AppDb")));
 
             services.AddDbContext<AppIdentityDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("AppDb")));
@@ -55,6 +61,11 @@ namespace EmployeeManager.RazorPages
 
             app.UseAuthentication();
             app.UseAuthorization();
+
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapRazorPages();
+            });
         }
     }
 }

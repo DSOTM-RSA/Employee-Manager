@@ -1,4 +1,5 @@
-﻿using EmployeeManager.Models;
+﻿using EmployeeManager.RazorPages.Data;
+using EmployeeManager.RazorPages.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
