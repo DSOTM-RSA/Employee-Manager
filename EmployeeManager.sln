@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeManager.MVC", "EmployeeManager\EmployeeManager.MVC.csproj", "{E5EC2A00-82CA-4C6E-B29B-BC50033068C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManager.RazorPages", "EmployeeManager.RazorPages\EmployeeManager.RazorPages.csproj", "{1279DA94-7E62-4233-985B-24C031190B2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeManager.RazorPages", "EmployeeManager.RazorPages\EmployeeManager.RazorPages.csproj", "{1279DA94-7E62-4233-985B-24C031190B2E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
