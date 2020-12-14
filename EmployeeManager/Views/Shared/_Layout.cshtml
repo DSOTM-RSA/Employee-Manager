@@ -13,6 +13,14 @@
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
+        <hr />
+        @if (User.Identity.IsAuthenticated)
+        {
+            <h2>You are signed in as: @User.Identity.Name</h2>
+            <form asp-controller="Security" asp-action="SignOut" method="post">
+                <button type="submit">Sign Out</button>
+            </form>
+        }
     </div>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
